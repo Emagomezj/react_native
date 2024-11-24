@@ -1,0 +1,219 @@
+[
+  {
+    "title": "Smartphone X100",
+    "description": "Un smartphone de última generación con cámara de 48MP y pantalla AMOLED.",
+    "price": 799.99,
+    "stock": 100,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Laptop Pro 15",
+    "description": "Laptop potente con procesador Intel i7, 16GB de RAM y SSD de 512GB.",
+    "price": 1299.99,
+    "stock": 50,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Auriculares Noise Cancelling",
+    "description": "Auriculares inalámbricos con cancelación de ruido y batería de 30 horas.",
+    "price": 199.99,
+    "stock": 200,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Reloj Inteligente FitPro",
+    "description": "Reloj inteligente con monitor de ritmo cardíaco, seguimiento de actividad y notificaciones.",
+    "price": 149.99,
+    "stock": 150,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Tablet UltraTab 10",
+    "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+    "price": 299.99,
+    "stock": 120,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Smart TV 55\" 4K",
+    "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+    "price": 599.99,
+    "stock": 80,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Cámara Digital DSLR 24MP",
+    "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
+    "price": 899.99,
+    "stock": 60,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Altavoces Bluetooth X200",
+    "description": "Altavoces portátiles con sonido de alta calidad y resistencia al agua.",
+    "price": 129.99,
+    "stock": 250,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Teclado Mecánico RGB",
+    "description": "Teclado para gamers con retroiluminación RGB y teclas mecánicas.",
+    "price": 89.99,
+    "stock": 180,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Mochila para Laptop",
+    "description": "Mochila moderna con compartimentos para laptop y accesorios.",
+    "price": 49.99,
+    "stock": 300,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Disco Duro Externo 1TB",
+    "description": "Disco duro portátil de 1TB con transferencia rápida de datos.",
+    "price": 59.99,
+    "stock": 400,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Router Wi-Fi 6",
+    "description": "Router de última tecnología con soporte para Wi-Fi 6 y conexiones rápidas.",
+    "price": 119.99,
+    "stock": 100,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Monitor Curvo 27\" 144Hz",
+    "description": "Monitor curvo de 27 pulgadas con resolución 2560x1440 y frecuencia de 144Hz.",
+    "price": 299.99,
+    "stock": 75,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Teclado de Membrana QuietPro",
+    "description": "Teclado de membrana silencioso y ergonómico, ideal para oficinas.",
+    "price": 39.99,
+    "stock": 220,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Cámara de Seguridad 1080p",
+    "description": "Cámara de seguridad con visión nocturna y conectividad Wi-Fi.",
+    "price": 79.99,
+    "stock": 180,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Batería Externa 20000mAh",
+    "description": "Batería externa de 20000mAh, ideal para cargar dispositivos móviles.",
+    "price": 39.99,
+    "stock": 500,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Sistema de Sonido 5.1",
+    "description": "Sistema de sonido envolvente 5.1 con subwoofer y altavoces satélites.",
+    "price": 249.99,
+    "stock": 150,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Ratón Gamer X500",
+    "description": "Ratón para gamers con sensor de alta precisión y diseño ergonómico.",
+    "price": 49.99,
+    "stock": 300,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Smartphone Z500",
+    "description": "Smartphone con cámara de 64MP y carga rápida de 30W.",
+    "price": 499.99,
+    "stock": 250,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Laptop Slim 13\"",
+    "description": "Laptop ultradelgada con pantalla Full HD, procesador Intel i5 y 8GB de RAM.",
+    "price": 799.99,
+    "stock": 130,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Proyector Mini LED",
+    "description": "Proyector portátil con resolución Full HD y conexión inalámbrica.",
+    "price": 199.99,
+    "stock": 90,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Smart Home Hub",
+    "description": "Dispositivo de control para automatización del hogar, compatible con Alexa y Google Assistant.",
+    "price": 59.99,
+    "stock": 200,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Disco SSD 500GB",
+    "description": "Unidad de estado sólido de 500GB para mejorar el rendimiento de tu PC.",
+    "price": 79.99,
+    "stock": 400,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Micrófono USB Profesional",
+    "description": "Micrófono USB con calidad de estudio, ideal para grabación de audio.",
+    "price": 129.99,
+    "stock": 160,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Reloj Inteligente ProFit",
+    "description": "Reloj inteligente con seguimiento de salud, GPS y monitoreo de sueño.",
+    "price": 199.99,
+    "stock": 100,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Cámara de Acción 4K",
+    "description": "Cámara de acción resistente al agua con grabación en 4K y estabilización de imagen.",
+    "price": 179.99,
+    "stock": 150,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Dron de Alta Definición",
+    "description": "Dron con cámara 4K y estabilización para tomas aéreas nítidas.",
+    "price": 499.99,
+    "stock": 80,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Teclado Gaming RGB",
+    "description": "Teclado mecánico RGB para juegos, con retroiluminación personalizable.",
+    "price": 129.99,
+    "stock": 220,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Gafas de Realidad Virtual",
+    "description": "Gafas VR compatibles con múltiples plataformas y aplicaciones.",
+    "price": 299.99,
+    "stock": 50,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Cargador Solar Portátil",
+    "description": "Cargador solar portátil para dispositivos móviles, ideal para exteriores.",
+    "price": 59.99,
+    "stock": 350,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "title": "Smartphone A1",
+    "description": "Smartphone con cámara de 16MP y batería de larga duración.",
+    "price": 299.99,
+    "stock": 180,
+    "thumbnail": "/public/images/default_product.jpg"
+  }
+]

@@ -1,21 +1,15 @@
 {
   "name": "e-commerce",
-  "version": "1.0.0",
-  "main": "index.js",
+  "description": "repositorio multipaquete backend-frontend para final de react-native",
+  "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~52.0.11",
-    "expo-status-bar": "~2.0.0",
-    "react": "18.3.1",
-    "react-native": "0.76.3"
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd frontend && npx expo start",
+    "start:backend": "cd backend && npm start",
+     "install-dependencies": "concurrently \"npm install --prefix frontend\" \"npm install --prefix backend\""
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+    "concurrently": "^8.0.0"
+  }
 }
+
