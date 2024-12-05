@@ -1,0 +1,21 @@
+export const categories = [
+    "Electrónica",
+    "Smartphones",
+    "Laptops",
+    "Auriculares",
+    "Relojes",
+    "Tablets",
+    "Televisores",
+    "Cámaras",
+    "Sonido",
+    "Accesorios Gaming",
+    "Bolsos",
+    "Almacenamiento",
+    "Redes",
+    "Monitores",
+    "Accesorios Oficina",
+    "Seguridad",
+    "Accesorios",
+    "Muebles",
+    "Sillas"
+  ];

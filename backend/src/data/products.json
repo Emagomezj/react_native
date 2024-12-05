@@ -1,219 +1,444 @@
 [
   {
+    "id": "823bf467-7da6-4b60-80b7-3936c21e11d2",
     "title": "Smartphone X100",
     "description": "Un smartphone de última generación con cámara de 48MP y pantalla AMOLED.",
+    "brand": "TechNova",
     "price": 799.99,
     "stock": 100,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Smartphones"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "adf0abb0-c712-48be-bf48-5f41465bceac",
     "title": "Laptop Pro 15",
     "description": "Laptop potente con procesador Intel i7, 16GB de RAM y SSD de 512GB.",
+    "brand": "InnovaTech",
     "price": 1299.99,
     "stock": 50,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Laptops"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "a9c33ae7-4e39-40ff-bddc-adb02b9cf483",
     "title": "Auriculares Noise Cancelling",
     "description": "Auriculares inalámbricos con cancelación de ruido y batería de 30 horas.",
+    "brand": "SoundWave",
     "price": 199.99,
     "stock": 200,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Auriculares"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "5bb35af0-a189-4a95-9317-25151465ed18",
     "title": "Reloj Inteligente FitPro",
     "description": "Reloj inteligente con monitor de ritmo cardíaco, seguimiento de actividad y notificaciones.",
+    "brand": "FitMaster",
     "price": 149.99,
     "stock": 150,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Relojes"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
     "title": "Tablet UltraTab 10",
     "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+    "brand": "TabMaster",
     "price": 299.99,
     "stock": 120,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Tablets"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
     "title": "Smart TV 55\" 4K",
     "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+    "brand": "Visionary",
     "price": 599.99,
     "stock": 80,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Televisores"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
     "title": "Cámara Digital DSLR 24MP",
     "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
+    "brand": "ProVision",
     "price": 899.99,
     "stock": 60,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Cámaras"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "4958799a-5168-43c7-9606-d574dd33b108",
     "title": "Altavoces Bluetooth X200",
     "description": "Altavoces portátiles con sonido de alta calidad y resistencia al agua.",
+    "brand": "AudioMax",
     "price": 129.99,
     "stock": 250,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Sonido"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "516b3ddb-d822-4365-8f0b-f1233702dddc",
     "title": "Teclado Mecánico RGB",
     "description": "Teclado para gamers con retroiluminación RGB y teclas mecánicas.",
+    "brand": "GameTech",
     "price": 89.99,
     "stock": 180,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Accesorios Gaming"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "a0236d22-d9e9-4e5e-8060-5f34ed8261d9",
     "title": "Mochila para Laptop",
     "description": "Mochila moderna con compartimentos para laptop y accesorios.",
+    "brand": "UrbanGear",
     "price": 49.99,
     "stock": 300,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Accesorios", "Bolsos"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "8cfbed0c-9dd5-4ecf-ba96-d6ad8f779759",
     "title": "Disco Duro Externo 1TB",
     "description": "Disco duro portátil de 1TB con transferencia rápida de datos.",
+    "brand": "StorageX",
     "price": 59.99,
     "stock": 400,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Almacenamiento"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "2ff4aff3-d8ba-46b3-91eb-71b1d86cdb68",
     "title": "Router Wi-Fi 6",
     "description": "Router de última tecnología con soporte para Wi-Fi 6 y conexiones rápidas.",
+    "brand": "NetWorks",
     "price": 119.99,
     "stock": 100,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Redes"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "eb2a30f8-163a-4606-bec2-801adb16e889",
     "title": "Monitor Curvo 27\" 144Hz",
     "description": "Monitor curvo de 27 pulgadas con resolución 2560x1440 y frecuencia de 144Hz.",
+    "brand": "ScreenVision",
     "price": 299.99,
     "stock": 75,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Monitores"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "a62a9ace-6d00-4567-95ab-606e0fa14c29",
     "title": "Teclado de Membrana QuietPro",
     "description": "Teclado de membrana silencioso y ergonómico, ideal para oficinas.",
+    "brand": "OfficeGear",
     "price": 39.99,
     "stock": 220,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Accesorios Oficina"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "8bff247e-b9a4-4952-b6c4-76c6cfedb77a",
     "title": "Cámara de Seguridad 1080p",
     "description": "Cámara de seguridad con visión nocturna y conectividad Wi-Fi.",
+    "brand": "SecureVision",
     "price": 79.99,
     "stock": 180,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Seguridad"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "e9062ddf-c3bf-4110-baf8-028deacf69ec",
     "title": "Batería Externa 20000mAh",
     "description": "Batería externa de 20000mAh, ideal para cargar dispositivos móviles.",
+    "brand": "PowerMax",
     "price": 39.99,
     "stock": 500,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Accesorios"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "49b32cfa-d112-4820-85e4-c56adbbc391d",
     "title": "Sistema de Sonido 5.1",
     "description": "Sistema de sonido envolvente 5.1 con subwoofer y altavoces satélites.",
+    "brand": "SoundSphere",
     "price": 249.99,
     "stock": 150,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Sonido"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "ec6ea396-0051-487c-9fa2-f4732e55414d",
     "title": "Ratón Gamer X500",
     "description": "Ratón para gamers con sensor de alta precisión y diseño ergonómico.",
+    "brand": "ProGamer",
     "price": 49.99,
     "stock": 300,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Accesorios Gaming"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
+    "id": "d5b1d494-6b86-42a3-9fc0-ae5df7aad188",
     "title": "Smartphone Z500",
     "description": "Smartphone con cámara de 64MP y carga rápida de 30W.",
-    "price": 499.99,
-    "stock": 250,
-    "thumbnail": "/public/images/default_product.jpg"
-  },
-  {
-    "title": "Laptop Slim 13\"",
-    "description": "Laptop ultradelgada con pantalla Full HD, procesador Intel i5 y 8GB de RAM.",
-    "price": 799.99,
-    "stock": 130,
-    "thumbnail": "/public/images/default_product.jpg"
-  },
-  {
-    "title": "Proyector Mini LED",
-    "description": "Proyector portátil con resolución Full HD y conexión inalámbrica.",
-    "price": 199.99,
+    "brand": "TechNova",
+    "price": 649.99,
     "stock": 90,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Smartphones"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
-    "title": "Smart Home Hub",
-    "description": "Dispositivo de control para automatización del hogar, compatible con Alexa y Google Assistant.",
+    "id": "1056022d-8b2c-4f94-8492-79cfa059a3a7",
+    "title": "Silla Ergonómica Deluxe",
+    "description": "Silla ergonómica con soporte lumbar y ajuste de altura.",
+    "brand": "ComfySeating",
+    "price": 199.99,
+    "stock": 60,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Muebles", "Sillas"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "4f5e8f1e-3458-466b-912d-6cbf90515b9f",
+    "title": "Smartphone A200",
+    "description": "Smartphone de gama media con cámara de 12MP y batería de larga duración.",
+    "brand": "TechNova",
+    "price": 499.99,
+    "stock": 120,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Smartphones"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "7d1f72bb-e42e-47a6-9b34-d5c5deed08a2",
+    "title": "Laptop Ultra X5",
+    "description": "Laptop ultradelgada con procesador Intel i5, 8GB de RAM y SSD de 256GB.",
+    "brand": "InnovaTech",
+    "price": 799.99,
+    "stock": 75,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Laptops"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "876d24bc-ece6-43f3-9e3c-5e34298b6d44",
+    "title": "Auriculares Bluetooth 5.0",
+    "description": "Auriculares inalámbricos con sonido de alta fidelidad y cancelación de ruido.",
+    "brand": "SoundWave",
+    "price": 249.99,
+    "stock": 300,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Auriculares"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "a5d1b7ea-e58e-42b4-bd9c-12f4cde76b57",
+    "title": "Reloj Inteligente FitnessPro",
+    "description": "Reloj inteligente con GPS, monitor de sueño y actividades deportivas.",
+    "brand": "FitMaster",
+    "price": 179.99,
+    "stock": 100,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Relojes"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "d3f3a3e4-2a92-4c1c-8997-bdc39b8a6e3b",
+    "title": "Tablet MaxTab 8",
+    "description": "Tablet con pantalla de 8 pulgadas, procesador quad-core y 32GB de almacenamiento.",
+    "brand": "TabMaster",
+    "price": 149.99,
+    "stock": 250,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Tablets"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "bf16ec44-f627-4299-9d7e-bd7f5982168d",
+    "title": "Smart TV 50\" 4K",
+    "description": "Televisor inteligente 4K con aplicaciones de streaming y control por voz.",
+    "brand": "Visionary",
+    "price": 499.99,
+    "stock": 90,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Televisores"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "bc89a930-3f75-467d-b2c5-03e2e7d210c0",
+    "title": "Cámara Profesional 30MP",
+    "description": "Cámara profesional con alta resolución y lente gran angular.",
+    "brand": "ProVision",
+    "price": 1099.99,
+    "stock": 45,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Cámaras"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "728e1f0a-e7da-43be-91fc-f83e9f8ed66d",
+    "title": "Altavoces Portátiles Bluetooth",
+    "description": "Altavoces bluetooth con resistencia al agua y batería de larga duración.",
+    "brand": "AudioMax",
+    "price": 129.99,
+    "stock": 350,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Sonido"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "5f12588a-0843-49d5-98c1-d42b55892d84",
+    "title": "Teclado Mecánico GamerPro",
+    "description": "Teclado mecánico RGB con switches de alta precisión, ideal para gaming.",
+    "brand": "GameTech",
+    "price": 119.99,
+    "stock": 150,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Accesorios Gaming"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "6192cc99-c4e5-4b95-bd84-5bc92c83fae3",
+    "title": "Mochila de Viaje ProPack",
+    "description": "Mochila resistente y ligera, ideal para viajar con laptop y accesorios.",
+    "brand": "UrbanGear",
     "price": 59.99,
     "stock": 200,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Accesorios", "Bolsos"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
-    "title": "Disco SSD 500GB",
-    "description": "Unidad de estado sólido de 500GB para mejorar el rendimiento de tu PC.",
-    "price": 79.99,
-    "stock": 400,
-    "thumbnail": "/public/images/default_product.jpg"
-  },
-  {
-    "title": "Micrófono USB Profesional",
-    "description": "Micrófono USB con calidad de estudio, ideal para grabación de audio.",
-    "price": 129.99,
-    "stock": 160,
-    "thumbnail": "/public/images/default_product.jpg"
-  },
-  {
-    "title": "Reloj Inteligente ProFit",
-    "description": "Reloj inteligente con seguimiento de salud, GPS y monitoreo de sueño.",
-    "price": 199.99,
+    "id": "4ecba946-33d9-4f42-b28a-7a17b4957e71",
+    "title": "Disco Duro Externo 2TB",
+    "description": "Disco duro portátil de 2TB con transferencia rápida y almacenamiento seguro.",
+    "brand": "StorageX",
+    "price": 89.99,
     "stock": 100,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Almacenamiento"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
-    "title": "Cámara de Acción 4K",
-    "description": "Cámara de acción resistente al agua con grabación en 4K y estabilización de imagen.",
+    "id": "3b5b4b1e-3ac2-4524-95d3-6eaa4fd31c56",
+    "title": "Router Wi-Fi 5",
+    "description": "Router con soporte para Wi-Fi 5, ideal para redes domésticas de alto rendimiento.",
+    "brand": "NetWorks",
+    "price": 69.99,
+    "stock": 140,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Redes"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "e3859b8f-6e49-4204-9c4d-30f0e9464f43",
+    "title": "Monitor LED 24\" Full HD",
+    "description": "Monitor LED de 24 pulgadas con resolución Full HD y excelente calidad de imagen.",
+    "brand": "ScreenVision",
     "price": 179.99,
-    "stock": 150,
-    "thumbnail": "/public/images/default_product.jpg"
+    "stock": 90,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Monitores"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
-    "title": "Dron de Alta Definición",
-    "description": "Dron con cámara 4K y estabilización para tomas aéreas nítidas.",
-    "price": 499.99,
-    "stock": 80,
-    "thumbnail": "/public/images/default_product.jpg"
+    "id": "c7b0b8f9-1e8f-47f5-a9e9-575bce3800ed",
+    "title": "Teclado de Oficina SilentPro",
+    "description": "Teclado ergonómico y silencioso con diseño compacto y teclas de bajo perfil.",
+    "brand": "ComfortTech",
+    "price": 49.99,
+    "stock": 180,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Accesorios Oficina"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
-    "title": "Teclado Gaming RGB",
-    "description": "Teclado mecánico RGB para juegos, con retroiluminación personalizable.",
-    "price": 129.99,
-    "stock": 220,
-    "thumbnail": "/public/images/default_product.jpg"
-  },
-  {
-    "title": "Gafas de Realidad Virtual",
-    "description": "Gafas VR compatibles con múltiples plataformas y aplicaciones.",
+    "id": "8ae3bc1a-f7b2-4c84-9105-83b5e39e2729",
+    "title": "Silla Ergonómica Deluxe",
+    "description": "Silla ergonómica con soporte lumbar ajustable y materiales de alta calidad.",
+    "brand": "ErgoComfort",
     "price": 299.99,
     "stock": 50,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Mobiliario", "Sillas"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
-    "title": "Cargador Solar Portátil",
-    "description": "Cargador solar portátil para dispositivos móviles, ideal para exteriores.",
-    "price": 59.99,
-    "stock": 350,
-    "thumbnail": "/public/images/default_product.jpg"
+    "id": "d9a2eab3-b8c3-4bbd-8a3d-ec982c63790f",
+    "title": "Cafetera Expresso Elite",
+    "description": "Cafetera de espresso con múltiples funciones y espumador de leche integrado.",
+    "brand": "CoffeeMaster",
+    "price": 189.99,
+    "stock": 70,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrodomésticos", "Cafeteras"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
-    "title": "Smartphone A1",
-    "description": "Smartphone con cámara de 16MP y batería de larga duración.",
-    "price": 299.99,
-    "stock": 180,
-    "thumbnail": "/public/images/default_product.jpg"
+    "id": "4b983c2e-e453-4f94-a9d7-1c540ec3bc47",
+    "title": "Juego de Ollas de Acero",
+    "description": "Juego de ollas de acero inoxidable con tapa y resistencia al calor.",
+    "brand": "KitchenPro",
+    "price": 79.99,
+    "stock": 120,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Hogar", "Cocina"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "0d013f87-dc85-4bcb-8d36-89e169a51e3f",
+    "title": "Set de Utensilios de Cocina",
+    "description": "Set de utensilios de cocina en nylon con mango ergonómico y resistente al calor.",
+    "brand": "ChefEase",
+    "price": 29.99,
+    "stock": 200,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Hogar", "Cocina"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "e9dbaf7c-7d92-48b5-b12e-2a2644d743f7",
+    "title": "Termo de Acero Inoxidable",
+    "description": "Termo de alta capacidad, ideal para bebidas calientes y frías.",
+    "brand": "Hot&Cold",
+    "price": 19.99,
+    "stock": 300,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Hogar", "Cocina"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "eaecb8d4-4477-4c4a-b44d-fbe26f8eaed0",
+    "title": "Almohada Memory Foam",
+    "description": "Almohada de espuma viscoelástica con funda hipoalergénica y soporte para el cuello.",
+    "brand": "ComfortSleep",
+    "price": 39.99,
+    "stock": 150,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Hogar", "Dormitorio"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   }
+
+
 ]

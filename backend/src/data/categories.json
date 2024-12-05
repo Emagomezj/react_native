@@ -1,0 +1,63 @@
+[
+    {
+        "category":"Electrónica", 
+        "thumbnail": "/public/images/categories/electro.jpg"
+    },
+    {
+        "category": "Smartphones",
+        "thumbnail": "/public/images/categories/smartphone.jpg"
+    },{
+
+        "category":"Laptops",
+        "thumbnail": "/public/images/categories/laptop.jpg"
+    },{
+        "category":"Auriculares",
+        "thumbnail": "/public/images/categories/headset.jpg"
+    },{
+        "category":"Relojes",
+        "thumbnail": "/public/images/categories/smartwatch.jpg"
+    },{
+        "category": "Tablets",
+        "thumbnail": "/public/images/categories/tablet.jpg"
+    },{
+        "category": "Televisores",
+        "thumbnail": "/public/images/categories/tv.jpg"
+    },{
+        "category": "Cámaras",
+        "thumbnail": "/public/images/categories/camera.jpg"
+    },{
+
+        "category": "Sonido",
+        "thumbnail": "/public/images/categories/audio.jpg"
+    },{
+        "category": "Accesorios Gaming",
+        "thumbnail": "/public/images/categories/accesories.jpg"
+    },{
+        "category": "Bolsos",
+        "thumbnail": "/public/images/categories/backpack.jpg"
+    },{
+       "category": "Almacenamiento",
+       "thumbnail": "/public/images/categories/storage.jpg"
+    },{
+        "category": "Redes",
+        "thumbnail": "/public/images/categories/network.jpg"
+    },{
+        "category": "Monitores",
+        "thumbnail": "/public/images/categories/monitor.jpg"
+    },{
+        "category": "Accesorios Oficina",
+        "thumbnail": "/public/images/categories/office.jpg"
+    },{
+        "category": "Seguridad",
+        "thumbnail": "/public/images/categories/security.jpg"
+    },{
+        "category": "Accesorios",
+        "thumbnail": "/public/images/categories/accesories.jpg"
+    },{
+        "category": "Muebles",
+        "thumbnail": "/public/images/categories/furniture.jpg"
+    },{
+        "category": "Sillas",
+        "thumbnail": "/public/images/categories/chair.jpg"
+    }
+]

@@ -1,0 +1,19 @@
+Product
+{   
+    id: ,
+    title: ,
+    description: ,
+    price: ,
+    stock: 
+  }
+
+User
+{
+  id: ,
+  name: ,
+  surname: ,
+  email: ,
+  password: -hash-,
+  roles: ,
+  carts: ,
+}

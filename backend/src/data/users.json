@@ -1,0 +1,50 @@
+[
+  {
+    "id": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11",
+    "name": "Juan",
+    "surname": "Pérez",
+    "email": "juanperez@ab.com",
+    "password": "$2a$15$YA.0eTSbPfPg6D1LT5HyKOKVIHJFPI8W.j693QS28GFJKrL7hmula",
+    "roles": [
+      "STANDARD",
+      "SELLER",
+      "ADMIN"
+    ],
+    "carts": [],
+    "recomendation": [
+      "adf0abb0-c712-48be-bf48-5f41465bceac",
+      "5bb35af0-a189-4a95-9317-25151465ed18",
+      "72187261-99c4-4ac7-865e-3b877f9c19c6",
+      "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
+      "2ff4aff3-d8ba-46b3-91eb-71b1d86cdb68",
+      "eb2a30f8-163a-4606-bec2-801adb16e889",
+      "a62a9ace-6d00-4567-95ab-606e0fa14c29",
+      "8bff247e-b9a4-4952-b6c4-76c6cfedb77a",
+      "49b32cfa-d112-4820-85e4-c56adbbc391d",
+      "d5b1d494-6b86-42a3-9fc0-ae5df7aad188"
+    ]    
+  },
+  {
+    "id": "e0405840-8b8a-496f-af8d-6d0a3c472a47",
+    "name": "Pedro",
+    "surname": "Pio",
+    "email": "ppio@ab.com",
+    "password": "$2a$15$br.YrMd4nqbQTvwtPFjqb.LapODrfQKCKHkRSEqfc6SQpfG8piewS",
+    "roles": [
+      "STANDARD"
+    ],
+    "carts": [],
+    "recomendation": [
+      "823bf467-7da6-4b60-80b7-3936c21e11d2", 
+      "a9c33ae7-4e39-40ff-bddc-adb02b9cf483", 
+      "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+      "72187261-99c4-4ac7-865e-3b877f9c19c6",
+      "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
+      "4958799a-5168-43c7-9606-d574dd33b108",
+      "516b3ddb-d822-4365-8f0b-f1233702dddc",
+      "8cfbed0c-9dd5-4ecf-ba96-d6ad8f779759",
+      "e9062ddf-c3bf-4110-baf8-028deacf69ec",
+      "49b32cfa-d112-4820-85e4-c56adbbc391d"
+    ]
+  }
+]

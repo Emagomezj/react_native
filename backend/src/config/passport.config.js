@@ -7,7 +7,7 @@ export const config = (server) => {
     // Opciones para la estrategia JWT basada en el encabezado Authorization
     const jwtHeaderOptions = {
         jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
-        secretOrKey: process.env.KEY,
+        secretOrKey: "vEQp}Hp(S-@px6Kt",
     };
 
     // Opciones para la estrategia JWT basada en una cookie llamada "token"

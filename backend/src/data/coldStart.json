@@ -1,0 +1,100 @@
+[{
+    "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+    "title": "Tablet UltraTab 10",
+    "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+    "brand": "TabMaster",
+    "price": 299.99,
+    "stock": 120,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Tablets"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
+    "title": "Smart TV 55\" 4K",
+    "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+    "brand": "Visionary",
+    "price": 599.99,
+    "stock": 80,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Televisores"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
+    "title": "Cámara Digital DSLR 24MP",
+    "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
+    "brand": "ProVision",
+    "price": 899.99,
+    "stock": 60,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Cámaras"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "4958799a-5168-43c7-9606-d574dd33b108",
+    "title": "Altavoces Bluetooth X200",
+    "description": "Altavoces portátiles con sonido de alta calidad y resistencia al agua.",
+    "brand": "AudioMax",
+    "price": 129.99,
+    "stock": 250,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Sonido"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "516b3ddb-d822-4365-8f0b-f1233702dddc",
+    "title": "Teclado Mecánico RGB",
+    "description": "Teclado para gamers con retroiluminación RGB y teclas mecánicas.",
+    "brand": "GameTech",
+    "price": 89.99,
+    "stock": 180,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Accesorios Gaming"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "a0236d22-d9e9-4e5e-8060-5f34ed8261d9",
+    "title": "Mochila para Laptop",
+    "description": "Mochila moderna con compartimentos para laptop y accesorios.",
+    "brand": "UrbanGear",
+    "price": 49.99,
+    "stock": 300,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Accesorios", "Bolsos"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "8cfbed0c-9dd5-4ecf-ba96-d6ad8f779759",
+    "title": "Disco Duro Externo 1TB",
+    "description": "Disco duro portátil de 1TB con transferencia rápida de datos.",
+    "brand": "StorageX",
+    "price": 59.99,
+    "stock": 400,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Almacenamiento"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "2ff4aff3-d8ba-46b3-91eb-71b1d86cdb68",
+    "title": "Router Wi-Fi 6",
+    "description": "Router de última tecnología con soporte para Wi-Fi 6 y conexiones rápidas.",
+    "brand": "NetWorks",
+    "price": 119.99,
+    "stock": 100,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Redes"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "eb2a30f8-163a-4606-bec2-801adb16e889",
+    "title": "Monitor Curvo 27\" 144Hz",
+    "description": "Monitor curvo de 27 pulgadas con resolución 2560x1440 y frecuencia de 144Hz.",
+    "brand": "ScreenVision",
+    "price": 299.99,
+    "stock": 75,
+    "thumbnail": "/public/images/default_product.jpg",
+    "categories": ["Electrónica", "Monitores"],
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  }
+]

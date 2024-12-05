@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-    "start:frontend": "cd frontend && npx expo start",
+    "start:frontend": "cd frontend && npm start",
     "start:backend": "cd backend && npm start",
      "install-dependencies": "concurrently \"npm install --prefix frontend\" \"npm install --prefix backend\""
   },
