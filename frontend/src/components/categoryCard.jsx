@@ -9,9 +9,9 @@ const CategoryCard = ({item, styles}) => {
     return (
     <Pressable
       onPress={() => navigation.navigate('Category', { categories: [item.category] })}
-      style={{...styles.card, backgroundColor: '#f1807e'}}
+      style={{...styles.card, backgroundColor: '#FFE599'}}
     >
-    <Text style={styles.textPrimary}>{item.category}</Text>
+    <Text style={{...styles.textPrimary, color: "#FFFFF"}}>{item.category}</Text>
     <Image
         source={{ uri: `${URL.slice(0, -1)}${item.thumbnail}` }}
         style={styleImage.productImage}

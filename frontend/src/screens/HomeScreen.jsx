@@ -30,6 +30,7 @@ const Home = ({ data, styles }) => {
 
     return (
         <FlatList
+            style={styles.container}
             ListHeaderComponent={
                 <View style={styles.container}>
                     <FlatList
@@ -40,7 +41,6 @@ const Home = ({ data, styles }) => {
                         showsHorizontalScrollIndicator={false}
                         nestedScrollEnabled
                     />
-                    <Text style={styles.textPrimary}>Recomendados</Text>
                 </View>
             }
             data={[...data.payload.products, ...additionalProductsList]}
@@ -50,7 +50,7 @@ const Home = ({ data, styles }) => {
             onEndReachedThreshold={0.5}
             ListFooterComponent={
                 loadingProducts ? (
-                    <ActivityIndicator size="large" />
+                    <ActivityIndicator size="large" color="#0000ff" style={{ marginVertical: 20 }}/>
                 ) : additionalError ? (() => { console.error(additionalError)
                  return (
                     <View style={styles.errorContainer}>
@@ -76,6 +76,6 @@ export const HomeScreen = () => {
             <Text>Ha habido un error</Text>
         </View>
     ) : (
-        <Home data={data} styles={styles} />
+        <Home data={data} styles={styles} style={styles.container}/>
     );
 };

@@ -9,7 +9,13 @@ const lightTheme = { background: '#F9FAFB',
     secondary: '#F97316',
     success: '#10B981',
     error: '#EF4444',
-    shadow: 'rgba(0, 0, 0, 0.1)',};
+    shadow: 'rgba(0, 0, 0, 0.1)',
+    tabs: {
+      background: '#FFFFFF', 
+      activeTab: '#2563EB',  
+      inactiveTab: '#6B7280',
+      border: '#E5E7EB',
+  }};
 
 const darkTheme = { background: '#1F2937',
     backgroundSecondary: '#111827',
@@ -19,7 +25,13 @@ const darkTheme = { background: '#1F2937',
     secondary: '#F59E0B',
     success: '#34D399',
     error: '#F87171',
-    shadow: 'rgba(0, 0, 0, 0.4)',};
+    shadow: 'rgba(0, 0, 0, 0.4)',
+    tabs: {
+      background: '#111827',
+      activeTab: '#3B82F6', 
+      inactiveTab: '#9CA3AF', 
+      border: '#374151',
+  }};
 
 const generateStyles = (theme) => {
     return StyleSheet.create({
@@ -58,6 +70,12 @@ const generateStyles = (theme) => {
           borderRadius: 10,
           marginBottom: 10,
         },
+        tabs: {
+          background: theme.tabs.background,
+          activeTab: theme.tabs.activeTab, 
+          inactiveTab: theme.tabs.inactiveTab, 
+          border: theme.tabs.border
+        }
       });
 };
 
