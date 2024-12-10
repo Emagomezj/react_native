@@ -42,12 +42,12 @@ export default class UserRepository{
     };
 
     async findOneByEmailAndPassword(email, password){
-        const users = this.#userDao();
-        const filteredUsers = users.map(u => u.email === email);
-        if(filteredUsers[0]) throw new Error(NOT_FOUND_CREDENTIALS)
+        const users = await this.#userDao.getUsers();
+        const filteredUsers = users.filter(u => u.email === email);
+        if(!filteredUsers[0]) throw new Error(NOT_FOUND_CREDENTIALS)
         const user = filteredUsers[0]
         const hash = user.password
-        if(passwordValidator(password, hash)) throw new Error(NOT_FOUND_CREDENTIALS);
+        if(!passwordValidator(password, hash)) throw new Error(NOT_FOUND_CREDENTIALS);
         return this.#userDto.model(user)
     };
 

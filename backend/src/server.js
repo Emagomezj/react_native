@@ -8,6 +8,8 @@ import { config as configCORS } from "./config/cors.config.js";
 import ProductRouter from "./routers/api/product.routes.js";
 import UserRouter from "./routers/api/user.routes.js";
 import HomeRouter from "./routers/api/home.routes.js";
+import SessionRouter from "./routers/api/session.routes.js";
+import ReceiptRouter from "./routers/api/receipt.routes.js";
 
 const server = express();
 
@@ -26,7 +28,8 @@ server.use("/api-docs", swaggerUiExpress.serve, swaggerUiExpress.setup(specs));
 server.use("/api/products", new ProductRouter().getRouter());
 server.use("/api/users", new UserRouter().getRouter());
 server.use("/api/home", new HomeRouter().getRouter());
-
+server.use("/api/session", new SessionRouter().getRouter());
+server.use("/api/receipts", new ReceiptRouter().getRouter());
 
 server.use("*", (req, res) => {
     res.status(404).send("La ruta indicada no existe");

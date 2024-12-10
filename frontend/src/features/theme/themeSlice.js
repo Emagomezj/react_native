@@ -35,6 +35,12 @@ const darkTheme = { background: '#1F2937',
 
 const generateStyles = (theme) => {
     return StyleSheet.create({
+        success: {
+          color:'#34D399'
+        },
+        error: {
+          color: '#F87171'
+        },
         container: {
           flex: 1,
           backgroundColor: theme.background,

@@ -3,8 +3,12 @@ Product
     id: ,
     title: ,
     description: ,
+    brand: ,
     price: ,
-    stock: 
+    stock: ,
+    thumbnail: ,
+    seller: ,
+
   }
 
 User
@@ -12,8 +16,20 @@ User
   id: ,
   name: ,
   surname: ,
-  email: ,
+  email: , //default: contraseña123
   password: -hash-,
   roles: ,
   carts: ,
+}
+
+Cart
+{
+  id: ,
+  costumer: ,
+  products: [
+    {product: {id},
+    quantity: ,
+    }
+  ]
+  updatedAt:
 }

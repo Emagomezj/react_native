@@ -1,13 +1,18 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { StyleSheet } from "react-native";
+import { View, Text } from "react-native";
 import { useSelector } from "react-redux";
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome6';
 import { ShopNavigator } from './shopNavigator';
-import { CartScreen } from "../screens";
+import { UserNavigator } from "./userNavigation";
+import { CartNavigator } from "./cartNavigator";
 
 
 const Tab = createBottomTabNavigator()
+
+const TestComponent = () => {
+    return (<View><Text>Settings</Text></View>)
+}
 
 const TabNavigator = () => {
     const styles = useSelector(state => state.themeReducer.styles);
@@ -31,17 +36,24 @@ const TabNavigator = () => {
                 }}
             />
             <Tab.Screen 
-                name="Cart" 
-                component={CartScreen} 
+                name="CartTab" 
+                component={CartNavigator} 
                 options={{
                     tabBarIcon: ({focused})=>(<MaterialIcon name="shopping-cart" size={32} color={focused?styles.tabs.activeTab:styles.tabs.inactiveTab} />)
                 }}
             />
             <Tab.Screen
                 name="UserPage"
-                component={CartScreen}
+                component={UserNavigator}
                 options={{
                     tabBarIcon: ({focused}) => (<FontAwesomeIcon name="user" size={32} color={focused?styles.tabs.activeTab:styles.tabs.inactiveTab} />)
+                }}
+            />
+            <Tab.Screen
+                name="Settings"
+                component={TestComponent}
+                options={{
+                    tabBarIcon: ({focused}) => (<FontAwesomeIcon name="gear" size={32} color={focused?styles.tabs.activeTab:styles.tabs.inactiveTab} />)
                 }}
             />
         </Tab.Navigator>

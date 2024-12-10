@@ -4,6 +4,7 @@ import { FlatList, View, Image } from 'react-native';
 import { Text } from 'react-native';
 import { StyleSheet } from 'react-native';
 import Button from '../components/button';
+import { addItem } from '../features/cart/cartSlice';
 import { URL } from '@env';
 
 
@@ -11,6 +12,7 @@ import { URL } from '@env';
 export const ProductScreen = ({route}) => {
     const {id, styles} = route.params
     const {data : product, error, isLoading} = useGetProductByIdQuery(id) 
+    const dispatch = useDispatch()
     
     return isLoading ? 
     <View style={styles.container}><Text>Cargando...</Text></View> : error? 
@@ -24,7 +26,7 @@ export const ProductScreen = ({route}) => {
         />
         <Text style={styles.textSecondary}>{product.payload.desciption}</Text>
         <Text style={styles.textSecondary}>${product.payload.price}</Text>
-        <Button title={'Agregar al carrito'} onPress={()=>alert('button press')} />
+        <Button title={'Agregar al carrito'} onPress={() => dispatch(addItem({ product: product.payload, quantity: 1 }))} />
         </View>
 
 
