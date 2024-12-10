@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { StyleSheet, Text, TextInput, View, Button, TouchableOpacity, Modal } from 'react-native';
+import { StyleSheet, Text, TextInput, View, Button, TouchableOpacity, Modal, Pressable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { usePostLoginMutation } from '../../services/authService';
-import { login } from '../../features/auth/sessionSlice';
+import { login, logout } from '../../features/auth/sessionSlice';
 
 const LoginScreen = () => {
   const [isSuccessModalVisible, setIsSuccessModalVisible] = useState(false);
+
+  const [isLoadingModalVisible, setIsLoadingModalVisible] = useState(false)
 
   const [postLogin, { data, error, isLoading }] = usePostLoginMutation()
 
@@ -16,19 +18,36 @@ const LoginScreen = () => {
 
   const theme = useSelector(state => state.themeReducer.styles);
   const user = useSelector(state => state.sessionReducer.user)
+  const logged = useSelector(state => state.sessionReducer.logged)
 
   const handleLogin = async () => {
     try {
       const response = await postLogin({ email: "ppio@ab.com", password: "contraseña123" })
-      console.error(response)
       dispatch(login({ user: response.data.payload.user, token: response.data.payload.token }));
-      setIsSuccessModalVisible(true);
+      if(logged) setIsSuccessModalVisible(true);
     } catch (err) {
       console.error("Login failed:", err);
     }
   };
 
-  return (
+  const handleLogout = () => {
+    dispatch(logout())
+  }
+
+  return logged ?
+  
+  <View style={ {...CustomStyles.container, backgroundColor: theme.container.backgroundColor }}>
+    <Text style={[CustomStyles.title, { color: theme.textPrimary.color }]}>
+        Panel de usuario
+    </Text>
+    <Pressable
+        onPress={handleLogout}
+      >
+        <Text style={{ ...CustomStyles.buttonText, color: theme.textPrimary.color }}>logout</Text>
+      </Pressable>
+  </View>
+  
+  :
     <View style={ {...CustomStyles.container, backgroundColor: theme.container.backgroundColor }}>      
       <Text style={[CustomStyles.title, { color: theme.textPrimary.color }]}>
         Login
@@ -75,8 +94,25 @@ const LoginScreen = () => {
           </View>
         </View>
       </Modal>
-    </View>
-  );
+      <Modal
+        visible={isLoading && !logged}
+        transparent
+        animationType="slide"
+        onRequestClose={() => setIsLoadingModalVisible(false)}
+      >
+        <View style={CustomStyles.modalContainer}>
+          <View style={{ ...CustomStyles.modalContent, backgroundColor: theme.container.backgroundColor }}>
+            <Text style={{ ...CustomStyles.modalText, color: theme.success.color }}>Cargando... </Text>
+            <TouchableOpacity
+              style={{ ...CustomStyles.modalButton, backgroundColor: theme.primary }}
+              onPress={() => setIsLoadingModalVisible(false)}
+            >
+              <Text style={{ ...CustomStyles.buttonText, color: theme.textPrimary.color }}>Close</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
+    </View> 
 };
 
 export {LoginScreen}

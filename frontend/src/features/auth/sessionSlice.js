@@ -16,11 +16,10 @@ export const sessionSlice = createSlice({
             }
         },
         logout: (state, action) => {
-            if(state.logged === false){
+            if(state.logged === true){
                 state.logged = false;
                 state.user = null;
                 state.token = undefined;
-                return 'Ha cerrado sessión con éxito'
             }
         }
     }
