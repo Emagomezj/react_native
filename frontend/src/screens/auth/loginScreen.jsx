@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { StyleSheet, Text, TextInput, View, Button, TouchableOpacity, Modal, Pressable } from 'react-native';
+import { StyleSheet, Text, TextInput, View, Button, TouchableOpacity, Modal, Pressable, KeyboardAvoidingView, Platform  } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { usePostLoginMutation } from '../../services/authService';
 import { login, logout } from '../../features/auth/sessionSlice';
@@ -10,9 +10,14 @@ import { insertSession, clearSessions, fetchSession } from '../../db';
 const LoginScreen = () => {
   const [isSuccessModalVisible, setIsSuccessModalVisible] = useState(false);
 
-  const [isLoadingModalVisible, setIsLoadingModalVisible] = useState(false)
+  const [isLoadingModalVisible, setIsLoadingModalVisible] = useState(false);
 
-  const [postLogin, { data, error, isLoading }] = usePostLoginMutation()
+  const [errorModal, setErrorModal] = useState(false)
+
+  const [emailInput, setEmailInput] = useState("");
+  const [passwordInput, setPasswordInput] = useState("");
+
+  const [postLogin, { data, error, isLoading }] = usePostLoginMutation();
 
   const navigation = useNavigation()
   const dispatch = useDispatch()
@@ -22,10 +27,18 @@ const LoginScreen = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await postLogin({ email: "ppio@ab.com", password: "contraseña123" })
-      dispatch(login({ user: response.data.payload.user, token: response.data.payload.token }));
-      insertSession({email: response.data.payload.user.email, localId: response.data.payload.user.id, token: response.data.payload.token}).then(() => {}).catch(error => console.error(error))
-      if(logged) setIsSuccessModalVisible(true);
+      setIsLoadingModalVisible(true)
+      const response = await postLogin({ email: emailInput, password: passwordInput })
+      if(response.error) {
+        setIsLoadingModalVisible(false)
+        setErrorModal(true)
+        setTimeout(() => setErrorModal(false),1000)
+      } else {
+        dispatch(login({ user: response.data.payload.user, token: response.data.payload.token }));
+        insertSession({email: response.data.payload.user.email, localId: response.data.payload.user.id, token: response.data.payload.token}).then(() => {}).catch(error => console.error(error))
+        setIsLoadingModalVisible(false)
+      }
+      if(isLoadingModalVisible) setIsLoadingModalVisible(false)
     } catch (err) {
       console.error("Login failed:", err);
     }
@@ -49,18 +62,26 @@ const LoginScreen = () => {
       </Pressable>
   </View>
   
-  :
+  : <KeyboardAvoidingView
+    behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+    style={{flex:1}}>
+
     <View style={ {...CustomStyles.container, backgroundColor: theme.container.backgroundColor }}>      
       <Text style={[CustomStyles.title, { color: theme.textPrimary.color }]}>
         Login
       </Text>
       <TextInput
         style={{...CustomStyles.input, backgroundColor: theme.container.backgroundColor, color: theme.textPrimary.color }}
+        onChangeText={(text) => setEmailInput(text)}
         placeholder="Email"
         placeholderTextColor={theme.textSecondary.color}
+        inputMode='email'
+        keyboardType='email-address'
+        editable={true}
       />
       <TextInput
         style={{ ...CustomStyles.input, backgroundColor: theme.container.backgroundColor, color: theme.textPrimary.color }}
+        onChangeText={(text) => setPasswordInput(text)}
         placeholder="Password"
         placeholderTextColor={theme.textSecondary.color}
         secureTextEntry
@@ -82,7 +103,9 @@ const LoginScreen = () => {
         visible={isSuccessModalVisible}
         transparent
         animationType="slide"
-        onRequestClose={() => setIsSuccessModalVisible(false)}
+        onRequestClose={() => {
+          setIsSuccessModalVisible(false) 
+          console.warn(errorModal)}}
       >
         <View style={CustomStyles.modalContainer}>
           <View style={{ ...CustomStyles.modalContent, backgroundColor: theme.container.backgroundColor }}>
@@ -97,7 +120,7 @@ const LoginScreen = () => {
         </View>
       </Modal>
       <Modal
-        visible={isLoading && !logged}
+        visible={isLoadingModalVisible}
         transparent
         animationType="slide"
         onRequestClose={() => setIsLoadingModalVisible(false)}
@@ -114,7 +137,26 @@ const LoginScreen = () => {
           </View>
         </View>
       </Modal>
+      <Modal
+        visible={errorModal}
+        transparent
+        animationType="slide"
+        onRequestClose={() => setErrorModal(false)}
+      >
+        <View style={CustomStyles.modalContainer}>
+          <View style={{ ...CustomStyles.modalContent, backgroundColor: theme.container.backgroundColor }}>
+            <Text style={{ ...CustomStyles.modalText, color: theme.success.color }}>Ha habido un Error</Text>
+            <TouchableOpacity
+              style={{ ...CustomStyles.modalButton, backgroundColor: theme.primary }}
+              onPress={() => setIsLoadingModalVisible(false)}
+            >
+              <Text style={{ ...CustomStyles.buttonText, color: theme.textPrimary.color }}>Close</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
     </View> 
+  </KeyboardAvoidingView>
 };
 
 export {LoginScreen}
@@ -132,7 +174,7 @@ const CustomStyles = StyleSheet.create({
     marginBottom: 20,
   },
   input: {
-    width: '100%',
+    width: '70%',
     padding: 10,
     marginBottom: 15,
     borderRadius: 5,

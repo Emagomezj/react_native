@@ -48,3 +48,55 @@ const styles = StyleSheet.create({
         marginVertical: 8,
     }
 })
+const CustomStyles = StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      padding: 20,
+    },
+    title: {
+      fontSize: 24,
+      fontWeight: 'bold',
+      marginBottom: 20,
+    },
+    input: {
+      width: '100%',
+      padding: 10,
+      marginBottom: 15,
+      borderRadius: 5,
+      borderWidth: 1,
+      borderColor: '#E5E7EB',
+    },
+    button: {
+      padding: 10,
+      borderRadius: 5,
+      alignItems: 'center',
+    },
+    buttonText: {
+      fontSize: 16,
+      fontWeight: 'bold',
+    },
+    modalContainer: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    },
+    modalContent: {
+      width: '80%',
+      padding: 20,
+      borderRadius: 10,
+      alignItems: 'center',
+    },
+    modalText: {
+      fontSize: 18,
+      marginBottom: 15,
+      fontWeight: 'bold',
+    },
+    modalButton: {
+      padding: 10,
+      borderRadius: 5,
+      alignItems: 'center',
+    },
+  });

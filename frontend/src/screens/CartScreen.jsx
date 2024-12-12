@@ -14,6 +14,7 @@ const CartScreen = ({navigation}) => {
     const cart = useSelector(state=>state.cartReducer.value.cartItems)
     const total = useSelector(state=>state.cartReducer.value.total)
     const [triggerPost, result] = usePostReceiptMutation()
+    
 
     const cartLength = useSelector(state=>state.cartReducer.value.cartLenght)
 
