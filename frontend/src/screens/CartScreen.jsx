@@ -21,13 +21,13 @@ const CartScreen = ({navigation}) => {
 
     const FooterComponent = () => (
         <View style={{...themeStyles.container, ...styles.footerContainer}}>
-            <Text style={styles.footerTotal}>Total: $ {total} </Text>
+            <Text style={{...styles.footerTotal, color: themeStyles.textPrimary.color}}>Total: $ {total} </Text>
             <Pressable style={styles.confirmButton} onPress={()=>{
                 triggerPost({cart,total,createdAt: Date.now()})
                 dispatch(clearCart())
                 navigation.navigate("Receipts")
             }} >
-                <Text style={styles.confirmButtonText}>Confirmar</Text>
+                <Text style={{...styles.confirmButtonText, color: themeStyles.textPrimary.color}}>Confirmar</Text>
             </Pressable>
         </View>
     )
@@ -42,24 +42,24 @@ const CartScreen = ({navigation}) => {
                         resizeMode='cover'
                     />
                 </View>
-                <View style={styles.cartDescription}>
-                    <Text style={styles.title}>{item.product.title}</Text>
-                    <Text style={styles.description}>{item.product.description}</Text>
+                <View style={{...styles.cartDescription, color: themeStyles.textPrimary.color }}>
+                    <Text style={{...styles.title, color: themeStyles.textPrimary.color}}>{item.product.title}</Text>
+                    <Text style={{...styles.description, color: themeStyles.textSecondary.color}}>{item.product.description}</Text>
                 </View>
             </View>
             <View style={{...themeStyles.container, ...styles.cartContainer, marginTop: 0, paddingTop:0}}>
-                    <Text>Cantidad:</Text>
+                    <Text style={{color: themeStyles.textPrimary.color}}>Cantidad:</Text>
                     <Pressable onPress={() => dispatch(decreaseItem(item.product.id))} >
-                    <Icon name='horizontal-rule' size={24} color='#FC7A5E' />
+                    <Icon name='horizontal-rule' size={24} color={themeStyles.textPrimary.color} />
                     </Pressable>
-                    <Text style={styles.quantity}> {item.quantity}</Text>
+                    <Text style={{...styles.quantity, color: themeStyles.textPrimary.color}}> {item.quantity}</Text>
                     <Pressable onPress={() => dispatch(addItem({ product: item.product, quantity: 1 }))} >
-                    <Icon name='add' size={24} color="#FC7A5E" />
+                    <Icon name='add' size={24} color= {themeStyles.textPrimary.color} />
                     </Pressable>
+                    <Text style={{...styles.total, marginTop:0, color: themeStyles.textPrimary.color}}>Subtotal: ${parseFloat((item.quantity*item.product.price).toFixed(2))}</Text>
                     <Pressable onPress={() => dispatch(removeItem(item.product.id))}>
                     <Icon name="delete" size={24} color="#FC7A5E" style={styles.trashIcon} />
                     </Pressable>
-                    <Text style={{...styles.total, marginTop:0}}>Subtotal: ${parseFloat((item.quantity*item.product.price).toFixed(2))}</Text>
             </View>
         </View>
     )
@@ -73,11 +73,11 @@ const CartScreen = ({navigation}) => {
             data={cart}
             keyExtractor={item => item.product.id}
             renderItem={renderCartItem}
-            ListHeaderComponent={<Text style={styles.cartScreenTitle}>Tu carrito:</Text>}
+            ListHeaderComponent={<Text style={{...styles.cartScreenTitle, color: themeStyles.textPrimary.color}}>Tu carrito:</Text>}
             ListFooterComponent={<FooterComponent />}
         />
         :
-        <View style={{...themeStyles,...styles.cartEmpty}}><Text style={styles.cartEmptyText} >Aún no hay productos en el carrito</Text></View>
+        <View style={{...themeStyles,...styles.cartEmpty}}><Text style={{...styles.cartEmptyText, color: themeStyles.textPrimary.color}} >Aún no hay productos en el carrito</Text></View>
         }
         </>
     )

@@ -6,13 +6,10 @@ import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome6';
 import { ShopNavigator } from './shopNavigator';
 import { UserNavigator } from "./userNavigation";
 import { CartNavigator } from "./cartNavigator";
+import { SettingsNavigator } from "./settingsNavigator";
 
 
 const Tab = createBottomTabNavigator()
-
-const TestComponent = () => {
-    return (<View><Text>Settings</Text></View>)
-}
 
 const TabNavigator = () => {
     const styles = useSelector(state => state.themeReducer.styles);
@@ -50,8 +47,8 @@ const TabNavigator = () => {
                 }}
             />
             <Tab.Screen
-                name="Settings"
-                component={TestComponent}
+                name="SettingsNavigator"
+                component={SettingsNavigator}
                 options={{
                     tabBarIcon: ({focused}) => (<FontAwesomeIcon name="gear" size={32} color={focused?styles.tabs.activeTab:styles.tabs.inactiveTab} />)
                 }}

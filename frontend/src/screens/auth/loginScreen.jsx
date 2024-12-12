@@ -5,6 +5,7 @@ import { StyleSheet, Text, TextInput, View, Button, TouchableOpacity, Modal, Pre
 import { useNavigation } from '@react-navigation/native';
 import { usePostLoginMutation } from '../../services/authService';
 import { login, logout } from '../../features/auth/sessionSlice';
+import { insertSession, clearSessions, fetchSession } from '../../db';
 
 const LoginScreen = () => {
   const [isSuccessModalVisible, setIsSuccessModalVisible] = useState(false);
@@ -17,13 +18,13 @@ const LoginScreen = () => {
   const dispatch = useDispatch()
 
   const theme = useSelector(state => state.themeReducer.styles);
-  const user = useSelector(state => state.sessionReducer.user)
   const logged = useSelector(state => state.sessionReducer.logged)
 
   const handleLogin = async () => {
     try {
       const response = await postLogin({ email: "ppio@ab.com", password: "contraseña123" })
       dispatch(login({ user: response.data.payload.user, token: response.data.payload.token }));
+      insertSession({email: response.data.payload.user.email, localId: response.data.payload.user.id, token: response.data.payload.token}).then(() => {}).catch(error => console.error(error))
       if(logged) setIsSuccessModalVisible(true);
     } catch (err) {
       console.error("Login failed:", err);
@@ -32,6 +33,7 @@ const LoginScreen = () => {
 
   const handleLogout = () => {
     dispatch(logout())
+    clearSessions().then(() => {})
   }
 
   return logged ?
@@ -84,7 +86,7 @@ const LoginScreen = () => {
       >
         <View style={CustomStyles.modalContainer}>
           <View style={{ ...CustomStyles.modalContent, backgroundColor: theme.container.backgroundColor }}>
-            <Text style={{ ...CustomStyles.modalText, color: theme.success.color }}>Login Successful! Bienvenid@ {user} </Text>
+            <Text style={{ ...CustomStyles.modalText, color: theme.success.color }}>Login Successful! Bienvenid@ </Text>
             <TouchableOpacity
               style={{ ...CustomStyles.modalButton, backgroundColor: theme.primary }}
               onPress={() => setIsSuccessModalVisible(false)}

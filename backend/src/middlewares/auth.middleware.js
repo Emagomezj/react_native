@@ -17,7 +17,7 @@ export const generateToken = async (req, res, next) => {
         const token = jwt.sign({ id: userFound.id }, "vEQp}Hp(S-@px6Kt", { expiresIn: "2h" });
 
         req.token = token;
-        req.user = userFound.id
+        req.user = {id: userFound.id, email: userFound.email, name: userFound.name}
 
         next();
     } catch (error) {
