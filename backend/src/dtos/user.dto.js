@@ -10,7 +10,9 @@ export class UserDto{
             surname: user.surname,
             email: user.email,
             roles: user.roles,
-            carts: user.carts
+            carts: user.carts,
+            receipts: user.receipts,
+            recomendation: user.recomendation
         }
     };
 
@@ -21,8 +23,10 @@ export class UserDto{
             surname: data.surname || "",
             email: data.email,
             password: data.password ? hasher(data.password) : null,
-            roles: data.roles || [STANDARD],
-            carts: data.carts || []
+            roles: data?.roles || [STANDARD],
+            carts: data?.carts || [],
+            receipts: data?.receipts || [],
+            recomendation: data?.recomendation || []
         }
     };
 }

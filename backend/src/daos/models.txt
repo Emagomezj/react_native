@@ -20,6 +20,7 @@ User
   password: -hash-,
   roles: ,
   carts: ,
+  recomendation: 
 }
 
 Cart
@@ -32,4 +33,15 @@ Cart
     }
   ]
   updatedAt:
+}
+
+Receipt
+{
+  user: uid
+  cart: [
+    { product: [Object], quantity: 1 },
+    { product: [Object], quantity: 1 }
+  ],
+  total: 899.98,
+  createdAt: 1734120205939
 }

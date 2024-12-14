@@ -62,6 +62,18 @@ export default class UserRepository{
         return this.#userDto.model(formatedData)
     };
 
+    async updateReceipts(uid,rid){
+        const user = await this.#userDao.getUserById(uid);
+        if(!user) throw new Error(NOT_FOUND_ID)
+        const receipts = [...user.receipts, rid]
+        const updatedUser = {...user, receipts};
+        const formatedData = this.#userDto.data(updatedUser);
+        const op = await this.#userDao.updateUsers(formatedData);
+        if(op.status != "succes") throw new Error("Error al actualizar la información del usuario");
+         
+        return this.#userDto.model(formatedData)
+    }
+
     async deleteOneById(id){
         const user = await this.#userDao.getUserById(id);
         if(!user) throw new Error(NOT_FOUND_ID)

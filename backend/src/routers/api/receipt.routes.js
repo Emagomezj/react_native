@@ -11,7 +11,8 @@ export default class ReceiptRouter extends BaseRouter {
     initialize(){
         const router = this.getRouter()
 
-        this.addPostRoute('/add', [], (req, res) => this.#rc.addNewReceipt(req, res))
+        this.addGetRoute('/user/:uid', [], (req,res) => this.#rc.getReceiptsbyUserId(req,res));
+        this.addPostRoute('/add', [], (req, res) => this.#rc.addNewReceipt(req, res));
 
 
 

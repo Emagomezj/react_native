@@ -57,16 +57,27 @@ export default class ProductRepository{
         if(!product) throw new Error(NOT_FOUND_ID)
         const updatedProduct = {...product, ...data};
         const formatedData = this.#productDto.data(updatedProduct);
-        console.log(updatedProduct)
         const op = await this.#productDao.updateProducts(formatedData);
         if(op.status != "succes") throw new Error(ERROR_SERVER);
          
         return formatedData
     };
 
+    async updateQuantity(id, op ,quantity){
+        const product = await this.#productDao.getProductById(id);
+        if(!product) throw new Error(NOT_FOUND_ID)
+        const stock = op === "sum" ? product.stock + quantity : product.stock - quantity;
+        const updatedProduct = {...product, stock};
+        const formatedData = this.#productDto.data(updatedProduct);
+        const operation = await this.#productDao.updateProducts(formatedData);
+        if(operation.status != "succes") throw new Error(ERROR_SERVER);
+
+        return formatedData
+    }
+
     async getManyById(idArr){
         const ids = new Set(idArr)
-        const products = this.#productDao.getProducts();
+        const products = await this.#productDao.getProducts();
         const filteredProducts = products.filter(p => ids.has(p.id));
         return filteredProducts;
     };

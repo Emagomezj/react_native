@@ -11,8 +11,15 @@ export const sessionApi = createApi({
                 method: 'POST',
                 body: credentials
             })
+        }),
+        createUser: builder.mutation({
+            query: ({...data}) => ({
+                url: '/api/users/create',
+                method: 'POST',
+                body: data
+            })
         })
     })
 });
 
-export const {usePostLoginMutation} = sessionApi;
+export const {usePostLoginMutation, useCreateUserMutation} = sessionApi;

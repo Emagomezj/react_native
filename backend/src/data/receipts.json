@@ -1,3 +1,816 @@
 [
-    
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734134822724,
+    "id": "92e2d80b-784c-4814-8a99-d76cf8a472d4"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135049123,
+    "id": "7bbab8ee-2efd-4a5f-b188-bfeedcd72c41"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135095940,
+    "id": "b3278a3d-6c8c-4d40-9f23-97355133aedb"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135389873,
+    "id": "2587bdbe-f9aa-476c-b1c6-6bf6c4ac4c45"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135424606,
+    "id": "9645c18a-fd40-4a62-8e07-7311c9c95131"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135453473,
+    "id": "4e9981d7-9ecb-41ec-a5f5-b9c977f16a8a"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135471422,
+    "id": "a3a08683-1c3c-4df2-81ea-97237c31590c"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135499506,
+    "id": "f62295c7-ed5e-45c2-a46d-45c4344ab469"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135607056,
+    "id": "197e4464-b263-4d11-8a2e-69ad69d623d4"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135610607,
+    "id": "2c4fc4fd-b792-4813-b89d-f7d0b5f4c91e"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135650356,
+    "id": "ced27f8a-0404-4232-9d75-156241bfdd39"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "brand": "TabMaster",
+          "price": 299.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734135705172,
+    "id": "3e9c8251-fbc2-46b7-b660-3d121c46e358"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
+          "title": "Cámara Digital DSLR 24MP",
+          "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
+          "brand": "ProVision",
+          "price": 899.99,
+          "stock": 60,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Cámaras"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 899.99,
+    "createdAt": 1734135751539,
+    "id": "0f7313b5-d6b3-4c77-ad07-1c0e74dd8c3a"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
+          "title": "Cámara Digital DSLR 24MP",
+          "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
+          "brand": "ProVision",
+          "price": 899.99,
+          "stock": 60,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Cámaras"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      },
+      {
+        "product": {
+          "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
+          "title": "Smart TV 55\" 4K",
+          "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+          "brand": "Visionary",
+          "price": 599.99,
+          "stock": 80,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Televisores"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      },
+      {
+        "product": {
+          "id": "516b3ddb-d822-4365-8f0b-f1233702dddc",
+          "title": "Teclado Mecánico RGB",
+          "description": "Teclado para gamers con retroiluminación RGB y teclas mecánicas.",
+          "brand": "GameTech",
+          "price": 89.99,
+          "stock": 180,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Accesorios Gaming"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 1589.97,
+    "createdAt": 1734135797874,
+    "id": "6de52912-fa36-486e-9c45-df3b1d07a3b7"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "4f5e8f1e-3458-466b-912d-6cbf90515b9f",
+          "title": "Smartphone A200",
+          "description": "Smartphone de gama media con cámara de 12MP y batería de larga duración.",
+          "brand": "TechNova",
+          "price": 499.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Smartphones"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 499.99,
+    "createdAt": 1734135898055,
+    "id": "dc0dcc3b-9a91-4bb3-9151-d3c3e2f43cb6"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "4f5e8f1e-3458-466b-912d-6cbf90515b9f",
+          "title": "Smartphone A200",
+          "description": "Smartphone de gama media con cámara de 12MP y batería de larga duración.",
+          "brand": "TechNova",
+          "price": 499.99,
+          "stock": 120,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Smartphones"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 499.99,
+    "createdAt": 1734136499605,
+    "id": "77e2f551-2172-4d02-8014-9dd938a96c48"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
+          "title": "Smart TV 55\" 4K",
+          "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+          "brand": "Visionary",
+          "price": 599.99,
+          "stock": 80,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Televisores"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 599.99,
+    "createdAt": 1734148031575,
+    "id": "f9d48801-78c9-4fb2-92d8-5d18195c679f"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
+          "title": "Smart TV 55\" 4K",
+          "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+          "brand": "Visionary",
+          "price": 599.99,
+          "stock": 80,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Televisores"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 599.99,
+    "createdAt": 1734148042124,
+    "id": "52cde5c5-15ea-404e-8aa3-a651e9f5b7d3"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "price": 299.99,
+          "stock": 146,
+          "thumbnail": "/public/images/default_product.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734148204258,
+    "id": "bfceb12c-93b1-4617-b8f5-7d365166942d"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "price": 299.99,
+          "stock": 145,
+          "thumbnail": "/public/images/default_product.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734148351674,
+    "id": "fccc70c2-a56f-4e8a-9bed-e446d2fd6675"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
+          "title": "Cámara Digital DSLR 24MP",
+          "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
+          "categories": [
+            "Electrónica",
+            "Cámaras"
+          ],
+          "price": 899.99,
+          "stock": 58,
+          "thumbnail": "/public/images/default_product.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 899.99,
+    "createdAt": 1734151608658,
+    "id": "c92a5803-7238-4a09-84b4-7250c8dcbe50"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "price": 299.99,
+          "stock": 144,
+          "thumbnail": "/public/images/default_product.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734151689358,
+    "id": "1c79df7e-a05d-406b-bcf5-76ab5bb10860"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "eb2a30f8-163a-4606-bec2-801adb16e889",
+          "title": "Monitor Curvo 27\" 144Hz",
+          "description": "Monitor curvo de 27 pulgadas con resolución 2560x1440 y frecuencia de 144Hz.",
+          "brand": "ScreenVision",
+          "price": 299.99,
+          "stock": 75,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Monitores"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734151804376,
+    "id": "822fd4c1-8f09-46c4-8bef-0999d576307c"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "516b3ddb-d822-4365-8f0b-f1233702dddc",
+          "title": "Teclado Mecánico RGB",
+          "description": "Teclado para gamers con retroiluminación RGB y teclas mecánicas.",
+          "brand": "GameTech",
+          "price": 89.99,
+          "stock": 180,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Accesorios Gaming"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 89.99,
+    "createdAt": 1734151881809,
+    "id": "745bb6d0-46ec-4e89-85fd-3403170185c4"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "516b3ddb-d822-4365-8f0b-f1233702dddc",
+          "title": "Teclado Mecánico RGB",
+          "description": "Teclado para gamers con retroiluminación RGB y teclas mecánicas.",
+          "brand": "GameTech",
+          "price": 89.99,
+          "stock": 180,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Accesorios Gaming"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 89.99,
+    "createdAt": 1734151881809,
+    "id": "5313caee-1f98-46cf-848a-2726047e1838"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+          "title": "Tablet UltraTab 10",
+          "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+          "categories": [
+            "Electrónica",
+            "Tablets"
+          ],
+          "price": 299.99,
+          "stock": 143,
+          "thumbnail": "/public/images/default_product.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 299.99,
+    "createdAt": 1734152547125,
+    "id": "f89be9b8-167f-4338-bb27-ae03f6881f34"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
+          "title": "Smart TV 55\" 4K",
+          "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+          "categories": [
+            "Electrónica",
+            "Televisores"
+          ],
+          "price": 599.99,
+          "stock": 78,
+          "thumbnail": "/public/images/default_product.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 599.99,
+    "createdAt": 1734152637925,
+    "id": "c097e70b-9c0b-41c4-8256-657212d03770"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
+          "title": "Cámara Digital DSLR 24MP",
+          "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
+          "categories": [
+            "Electrónica",
+            "Cámaras"
+          ],
+          "price": 899.99,
+          "stock": 57,
+          "thumbnail": "/public/images/default_product.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 899.99,
+    "createdAt": 1734152824724,
+    "id": "8bd315d9-94ad-4d4d-aeac-0437298df55d"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
+          "title": "Smart TV 55\" 4K",
+          "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+          "categories": [
+            "Electrónica",
+            "Televisores"
+          ],
+          "price": 599.99,
+          "stock": 77,
+          "thumbnail": "/public/images/default_product.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 599.99,
+    "createdAt": 1734206829062,
+    "id": "b184d603-49b2-4364-8188-b125ce156431"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
+          "title": "Smart TV 55\" 4K",
+          "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+          "categories": [
+            "Electrónica",
+            "Televisores"
+          ],
+          "price": 599.99,
+          "stock": 77,
+          "thumbnail": "/public/images/default_product.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 599.99,
+    "createdAt": 1734206831630,
+    "id": "d02df37c-6b97-41c7-96e3-28cee8e4c1ff"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
+          "title": "Smart TV 55\" 4K",
+          "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+          "categories": [
+            "Electrónica",
+            "Televisores"
+          ],
+          "price": 599.99,
+          "stock": 76,
+          "thumbnail": "/public/images/default_product.jpg"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 599.99,
+    "createdAt": 1734206894429,
+    "id": "ae3adfa0-f90e-4012-b8cd-1e61a8ed989a"
+  },
+  {
+    "user": "4985f394-36f6-4d80-a6e3-4671004c3333",
+    "cart": [
+      {
+        "product": {
+          "id": "a62a9ace-6d00-4567-95ab-606e0fa14c29",
+          "title": "Teclado de Membrana QuietPro",
+          "description": "Teclado de membrana silencioso y ergonómico, ideal para oficinas.",
+          "brand": "OfficeGear",
+          "price": 39.99,
+          "stock": 220,
+          "thumbnail": "/public/images/default_product.jpg",
+          "categories": [
+            "Electrónica",
+            "Accesorios Oficina"
+          ],
+          "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 39.99,
+    "createdAt": 1734207112696,
+    "id": "e9919492-d027-4558-895e-9e8c41c16f7f"
+  }
 ]

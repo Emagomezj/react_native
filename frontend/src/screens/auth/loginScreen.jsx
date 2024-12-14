@@ -34,6 +34,8 @@ const LoginScreen = () => {
         setErrorModal(true)
         setTimeout(() => setErrorModal(false),1000)
       } else {
+        setEmailInput('');
+        setPasswordInput('');
         dispatch(login({ user: response.data.payload.user, token: response.data.payload.token }));
         insertSession({email: response.data.payload.user.email, localId: response.data.payload.user.id, token: response.data.payload.token}).then(() => {}).catch(error => console.error(error))
         setIsLoadingModalVisible(false)
@@ -55,6 +57,11 @@ const LoginScreen = () => {
     <Text style={[CustomStyles.title, { color: theme.textPrimary.color }]}>
         Panel de usuario
     </Text>
+    <Pressable
+        onPress={() => navigation.navigate('Compras', {})}
+      >
+        <Text style={{ ...CustomStyles.buttonText, color: theme.textPrimary.color }}>Mis compras</Text>
+      </Pressable>
     <Pressable
         onPress={handleLogout}
       >
@@ -98,7 +105,8 @@ const LoginScreen = () => {
       >
         <Text style={{ ...CustomStyles.buttonText, color: theme.textSecondary.color }}>Registrarse</Text>
       </TouchableOpacity>
-
+    </View>
+    <View>
       <Modal
         visible={isSuccessModalVisible}
         transparent
@@ -148,7 +156,7 @@ const LoginScreen = () => {
             <Text style={{ ...CustomStyles.modalText, color: theme.success.color }}>Ha habido un Error</Text>
             <TouchableOpacity
               style={{ ...CustomStyles.modalButton, backgroundColor: theme.primary }}
-              onPress={() => setIsLoadingModalVisible(false)}
+              onPress={() => setErrorModal(false)}
             >
               <Text style={{ ...CustomStyles.buttonText, color: theme.textPrimary.color }}>Close</Text>
             </TouchableOpacity>

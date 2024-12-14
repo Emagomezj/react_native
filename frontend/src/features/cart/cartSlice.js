@@ -6,7 +6,7 @@ export const cartSlice = createSlice({
     initialState: {
         value: {
             cartItems:[],
-            user:"demo",
+            user: null,
             total: null,
             cartLenght:0,
             updateAt: Date.now().toLocaleString() //unix timestamp

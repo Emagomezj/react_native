@@ -7,7 +7,10 @@
     "price": 799.99,
     "stock": 100,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Smartphones"],
+    "categories": [
+      "Electrónica",
+      "Smartphones"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -18,7 +21,10 @@
     "price": 1299.99,
     "stock": 50,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Laptops"],
+    "categories": [
+      "Electrónica",
+      "Laptops"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -29,7 +35,10 @@
     "price": 199.99,
     "stock": 200,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Auriculares"],
+    "categories": [
+      "Electrónica",
+      "Auriculares"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -40,40 +49,10 @@
     "price": 149.99,
     "stock": 150,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Relojes"],
-    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
-  },
-  {
-    "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
-    "title": "Tablet UltraTab 10",
-    "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
-    "brand": "TabMaster",
-    "price": 299.99,
-    "stock": 120,
-    "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Tablets"],
-    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
-  },
-  {
-    "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
-    "title": "Smart TV 55\" 4K",
-    "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
-    "brand": "Visionary",
-    "price": 599.99,
-    "stock": 80,
-    "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Televisores"],
-    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
-  },
-  {
-    "id": "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
-    "title": "Cámara Digital DSLR 24MP",
-    "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
-    "brand": "ProVision",
-    "price": 899.99,
-    "stock": 60,
-    "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Cámaras"],
+    "categories": [
+      "Electrónica",
+      "Relojes"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -84,18 +63,10 @@
     "price": 129.99,
     "stock": 250,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Sonido"],
-    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
-  },
-  {
-    "id": "516b3ddb-d822-4365-8f0b-f1233702dddc",
-    "title": "Teclado Mecánico RGB",
-    "description": "Teclado para gamers con retroiluminación RGB y teclas mecánicas.",
-    "brand": "GameTech",
-    "price": 89.99,
-    "stock": 180,
-    "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Accesorios Gaming"],
+    "categories": [
+      "Electrónica",
+      "Sonido"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -106,7 +77,10 @@
     "price": 49.99,
     "stock": 300,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Accesorios", "Bolsos"],
+    "categories": [
+      "Accesorios",
+      "Bolsos"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -117,7 +91,10 @@
     "price": 59.99,
     "stock": 400,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Almacenamiento"],
+    "categories": [
+      "Electrónica",
+      "Almacenamiento"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -128,29 +105,10 @@
     "price": 119.99,
     "stock": 100,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Redes"],
-    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
-  },
-  {
-    "id": "eb2a30f8-163a-4606-bec2-801adb16e889",
-    "title": "Monitor Curvo 27\" 144Hz",
-    "description": "Monitor curvo de 27 pulgadas con resolución 2560x1440 y frecuencia de 144Hz.",
-    "brand": "ScreenVision",
-    "price": 299.99,
-    "stock": 75,
-    "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Monitores"],
-    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
-  },
-  {
-    "id": "a62a9ace-6d00-4567-95ab-606e0fa14c29",
-    "title": "Teclado de Membrana QuietPro",
-    "description": "Teclado de membrana silencioso y ergonómico, ideal para oficinas.",
-    "brand": "OfficeGear",
-    "price": 39.99,
-    "stock": 220,
-    "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Accesorios Oficina"],
+    "categories": [
+      "Electrónica",
+      "Redes"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -161,7 +119,10 @@
     "price": 79.99,
     "stock": 180,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Seguridad"],
+    "categories": [
+      "Electrónica",
+      "Seguridad"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -172,7 +133,10 @@
     "price": 39.99,
     "stock": 500,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Accesorios"],
+    "categories": [
+      "Electrónica",
+      "Accesorios"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -183,7 +147,10 @@
     "price": 249.99,
     "stock": 150,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Sonido"],
+    "categories": [
+      "Electrónica",
+      "Sonido"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -194,7 +161,10 @@
     "price": 49.99,
     "stock": 300,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Accesorios Gaming"],
+    "categories": [
+      "Electrónica",
+      "Accesorios Gaming"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -205,7 +175,10 @@
     "price": 649.99,
     "stock": 90,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Smartphones"],
+    "categories": [
+      "Electrónica",
+      "Smartphones"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -216,18 +189,10 @@
     "price": 199.99,
     "stock": 60,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Muebles", "Sillas"],
-    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
-  },
-  {
-    "id": "4f5e8f1e-3458-466b-912d-6cbf90515b9f",
-    "title": "Smartphone A200",
-    "description": "Smartphone de gama media con cámara de 12MP y batería de larga duración.",
-    "brand": "TechNova",
-    "price": 499.99,
-    "stock": 120,
-    "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Smartphones"],
+    "categories": [
+      "Muebles",
+      "Sillas"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -238,7 +203,10 @@
     "price": 799.99,
     "stock": 75,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Laptops"],
+    "categories": [
+      "Electrónica",
+      "Laptops"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -249,7 +217,10 @@
     "price": 249.99,
     "stock": 300,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Auriculares"],
+    "categories": [
+      "Electrónica",
+      "Auriculares"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -260,7 +231,10 @@
     "price": 179.99,
     "stock": 100,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Relojes"],
+    "categories": [
+      "Electrónica",
+      "Relojes"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -271,7 +245,10 @@
     "price": 149.99,
     "stock": 250,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Tablets"],
+    "categories": [
+      "Electrónica",
+      "Tablets"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -282,7 +259,10 @@
     "price": 499.99,
     "stock": 90,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Televisores"],
+    "categories": [
+      "Electrónica",
+      "Televisores"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -293,7 +273,10 @@
     "price": 1099.99,
     "stock": 45,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Cámaras"],
+    "categories": [
+      "Electrónica",
+      "Cámaras"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -304,7 +287,10 @@
     "price": 129.99,
     "stock": 350,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Sonido"],
+    "categories": [
+      "Electrónica",
+      "Sonido"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -315,7 +301,10 @@
     "price": 119.99,
     "stock": 150,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Accesorios Gaming"],
+    "categories": [
+      "Electrónica",
+      "Accesorios Gaming"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -326,7 +315,10 @@
     "price": 59.99,
     "stock": 200,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Accesorios", "Bolsos"],
+    "categories": [
+      "Accesorios",
+      "Bolsos"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -337,7 +329,10 @@
     "price": 89.99,
     "stock": 100,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Almacenamiento"],
+    "categories": [
+      "Electrónica",
+      "Almacenamiento"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -348,7 +343,10 @@
     "price": 69.99,
     "stock": 140,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Redes"],
+    "categories": [
+      "Electrónica",
+      "Redes"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -359,7 +357,10 @@
     "price": 179.99,
     "stock": 90,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Monitores"],
+    "categories": [
+      "Electrónica",
+      "Monitores"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -370,7 +371,10 @@
     "price": 49.99,
     "stock": 180,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrónica", "Accesorios Oficina"],
+    "categories": [
+      "Electrónica",
+      "Accesorios Oficina"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -381,7 +385,10 @@
     "price": 299.99,
     "stock": 50,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Mobiliario", "Sillas"],
+    "categories": [
+      "Mobiliario",
+      "Sillas"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -392,7 +399,10 @@
     "price": 189.99,
     "stock": 70,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Electrodomésticos", "Cafeteras"],
+    "categories": [
+      "Electrodomésticos",
+      "Cafeteras"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -403,7 +413,10 @@
     "price": 79.99,
     "stock": 120,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Hogar", "Cocina"],
+    "categories": [
+      "Hogar",
+      "Cocina"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -414,7 +427,10 @@
     "price": 29.99,
     "stock": 200,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Hogar", "Cocina"],
+    "categories": [
+      "Hogar",
+      "Cocina"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -425,7 +441,10 @@
     "price": 19.99,
     "stock": 300,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Hogar", "Cocina"],
+    "categories": [
+      "Hogar",
+      "Cocina"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
@@ -436,9 +455,94 @@
     "price": 39.99,
     "stock": 150,
     "thumbnail": "/public/images/default_product.jpg",
-    "categories": ["Hogar", "Dormitorio"],
+    "categories": [
+      "Hogar",
+      "Dormitorio"
+    ],
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "4f5e8f1e-3458-466b-912d-6cbf90515b9f",
+    "title": "Smartphone A200",
+    "description": "Smartphone de gama media con cámara de 12MP y batería de larga duración.",
+    "categories": [
+      "Electrónica",
+      "Smartphones"
+    ],
+    "price": 499.99,
+    "stock": 118,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "id": "eb2a30f8-163a-4606-bec2-801adb16e889",
+    "title": "Monitor Curvo 27\" 144Hz",
+    "description": "Monitor curvo de 27 pulgadas con resolución 2560x1440 y frecuencia de 144Hz.",
+    "categories": [
+      "Electrónica",
+      "Monitores"
+    ],
+    "price": 299.99,
+    "stock": 74,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "id": "516b3ddb-d822-4365-8f0b-f1233702dddc",
+    "title": "Teclado Mecánico RGB",
+    "description": "Teclado para gamers con retroiluminación RGB y teclas mecánicas.",
+    "categories": [
+      "Electrónica",
+      "Accesorios Gaming"
+    ],
+    "price": 89.99,
+    "stock": 179,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+    "title": "Tablet UltraTab 10",
+    "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+    "categories": [
+      "Electrónica",
+      "Tablets"
+    ],
+    "price": 299.99,
+    "stock": 142,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "id": "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
+    "title": "Cámara Digital DSLR 24MP",
+    "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
+    "categories": [
+      "Electrónica",
+      "Cámaras"
+    ],
+    "price": 899.99,
+    "stock": 56,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
+    "title": "Smart TV 55\" 4K",
+    "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+    "categories": [
+      "Electrónica",
+      "Televisores"
+    ],
+    "price": 599.99,
+    "stock": 75,
+    "thumbnail": "/public/images/default_product.jpg"
+  },
+  {
+    "id": "a62a9ace-6d00-4567-95ab-606e0fa14c29",
+    "title": "Teclado de Membrana QuietPro",
+    "description": "Teclado de membrana silencioso y ergonómico, ideal para oficinas.",
+    "categories": [
+      "Electrónica",
+      "Accesorios Oficina"
+    ],
+    "price": 39.99,
+    "stock": 219,
+    "thumbnail": "/public/images/default_product.jpg"
   }
-
-
 ]
