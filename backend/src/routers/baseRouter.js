@@ -44,6 +44,7 @@ export default class BaseRouter {
         this.#router.param("id", this.#validatePathParam(pattern, ERROR_INVALID_ID));
         this.#router.param("oid", this.#validatePathParam(pattern, ERROR_INVALID_ID));
         this.#router.param("pid", this.#validatePathParam(pattern, ERROR_INVALID_ID));
+        this.#router.param("uid", this.#validatePathParam(pattern, ERROR_INVALID_ID));
     }
 
     // Método privado: Valida un parámetro de ruta según el patrón dado

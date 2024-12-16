@@ -29,6 +29,10 @@ export default class ProductService{
         return await this.#pr.updateProductById(id, data);
     };
 
+    async getByUser(uid){
+        return await this.#pr.getUserProducts(uid)
+    }
+
     async deleteProduct(id){
         return await this.#pr.deleteOneById(id);
     };

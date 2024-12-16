@@ -42,11 +42,11 @@ const ReceiptsScreen = () => {
             </View>
         </TouchableOpacity>
     )
-    return isLoading ? <View style={{flex: 1}}><ActivityIndicator size={"large"} /></View>
+    return isLoading ? <View style={{flex: 1, justifyContent:'center', alignItems:'center'}}><ActivityIndicator size={"large"} /></View>
     :
     error? (() => {
         console.error(error)
-        return <View><Text>Error: {JSON.stringify(data,null,2)}</Text></View>
+        return <View><Text>Error: {JSON.stringify(error,null,2)}</Text></View>
     })()
     :
     <View> 

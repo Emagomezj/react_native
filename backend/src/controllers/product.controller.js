@@ -48,6 +48,16 @@ export default class ProductController{
         };
     };
 
+    async getByUID(req,res){
+        try {
+            const {uid} = req.params;
+            const products = await this.#ps.getByUser(uid);
+            res.sendSuccess200(products)
+        } catch (error) {
+            res.sendError(error)
+        };
+    };
+
     async deleteOne(req,res){
         try {
             const {id} = req.params;

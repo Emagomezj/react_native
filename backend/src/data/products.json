@@ -266,20 +266,6 @@
     "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
-    "id": "bc89a930-3f75-467d-b2c5-03e2e7d210c0",
-    "title": "Cámara Profesional 30MP",
-    "description": "Cámara profesional con alta resolución y lente gran angular.",
-    "brand": "ProVision",
-    "price": 1099.99,
-    "stock": 45,
-    "thumbnail": "/public/images/default_product.jpg",
-    "categories": [
-      "Electrónica",
-      "Cámaras"
-    ],
-    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
-  },
-  {
     "id": "728e1f0a-e7da-43be-91fc-f83e9f8ed66d",
     "title": "Altavoces Portátiles Bluetooth",
     "description": "Altavoces bluetooth con resistencia al agua y batería de larga duración.",
@@ -471,7 +457,8 @@
     ],
     "price": 499.99,
     "stock": 118,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
     "id": "eb2a30f8-163a-4606-bec2-801adb16e889",
@@ -483,7 +470,8 @@
     ],
     "price": 299.99,
     "stock": 74,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
     "id": "516b3ddb-d822-4365-8f0b-f1233702dddc",
@@ -495,43 +483,8 @@
     ],
     "price": 89.99,
     "stock": 179,
-    "thumbnail": "/public/images/default_product.jpg"
-  },
-  {
-    "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
-    "title": "Tablet UltraTab 10",
-    "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
-    "categories": [
-      "Electrónica",
-      "Tablets"
-    ],
-    "price": 299.99,
-    "stock": 142,
-    "thumbnail": "/public/images/default_product.jpg"
-  },
-  {
-    "id": "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
-    "title": "Cámara Digital DSLR 24MP",
-    "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
-    "categories": [
-      "Electrónica",
-      "Cámaras"
-    ],
-    "price": 899.99,
-    "stock": 56,
-    "thumbnail": "/public/images/default_product.jpg"
-  },
-  {
-    "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
-    "title": "Smart TV 55\" 4K",
-    "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
-    "categories": [
-      "Electrónica",
-      "Televisores"
-    ],
-    "price": 599.99,
-    "stock": 75,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
   },
   {
     "id": "a62a9ace-6d00-4567-95ab-606e0fa14c29",
@@ -543,6 +496,131 @@
     ],
     "price": 39.99,
     "stock": 219,
-    "thumbnail": "/public/images/default_product.jpg"
+    "thumbnail": "/public/images/default_product.jpg",
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "bc89a930-3f75-467d-b2c5-03e2e7d210c0",
+    "title": "Cámara Profesional 30MP",
+    "description": "Cámara profesional con alta resolución y lente gran angular.",
+    "categories": [
+      "Electrónica",
+      "Cámaras"
+    ],
+    "price": 1099.99,
+    "stock": 39,
+    "thumbnail": "/public/images/default_product.jpg",
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "cdf33d6a-89bd-40f2-9be4-d7f306b47ec1",
+    "title": "Tablet UltraTab 10",
+    "description": "Tablet con pantalla de 10.1 pulgadas, procesador octa-core y 64GB de almacenamiento.",
+    "categories": [
+      "Electrónica",
+      "Tablets"
+    ],
+    "price": 299.99,
+    "stock": 140,
+    "thumbnail": "/public/images/default_product.jpg",
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "7cc8b6d6-ec4f-4ede-87e8-1ea683d8095a",
+    "title": "Cámara Digital DSLR 24MP",
+    "description": "Cámara profesional con lente intercambiable y grabación en 4K.",
+    "categories": [
+      "Electrónica",
+      "Cámaras"
+    ],
+    "price": 899.99,
+    "stock": 55,
+    "thumbnail": "/public/images/default_product.jpg",
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "72187261-99c4-4ac7-865e-3b877f9c19c6",
+    "title": "Smart TV 55\" 4K",
+    "description": "Televisor inteligente 4K con aplicaciones integradas y sonido envolvente.",
+    "categories": [
+      "Electrónica",
+      "Televisores"
+    ],
+    "price": 599.99,
+    "stock": 71,
+    "thumbnail": "/public/images/default_product.jpg",
+    "seller": "6f950d98-3ec5-4bbf-9dbb-5757f3a8cc11"
+  },
+  {
+    "id": "092b596f-7322-47be-a6f0-77bf45a2406a",
+    "title": "Camera feature",
+    "description": "Prueba de camera feature",
+    "price": "10",
+    "stock": "10",
+    "thumbnail": "/public/images/file_3338_16122024_004411.jpg",
+    "seller": "4985f394-36f6-4d80-a6e3-4671004c3333"
+  },
+  {
+    "id": "68ae63bb-7edd-4a86-8034-d476b6beb145",
+    "title": "Segunda Prueba",
+    "description": "Segunda prueba de camera feature",
+    "price": "10",
+    "stock": "10",
+    "thumbnail": "/public/images/file_2201_16122024_005041.jpg",
+    "seller": "4985f394-36f6-4d80-a6e3-4671004c3333"
+  },
+  {
+    "id": "0dbe5d62-e18c-4c41-974e-00d947a8e7bd",
+    "title": "Tercera Prueba",
+    "description": "Tercera prueba de camera feature",
+    "price": "10",
+    "stock": "10",
+    "thumbnail": "/public/images/file_6670_16122024_005218.jpg",
+    "seller": "4985f394-36f6-4d80-a6e3-4671004c3333"
+  },
+  {
+    "id": "bac190a1-9be3-4f57-afc3-5bf532bd82d6",
+    "title": "asdf",
+    "description": "asdf",
+    "price": "10",
+    "stock": "10",
+    "thumbnail": "/public/images/file_6794_16122024_005734.jpg",
+    "seller": "4985f394-36f6-4d80-a6e3-4671004c3333"
+  },
+  {
+    "id": "adb27975-cec3-4acc-bae2-e43fae2b8475",
+    "title": "Prueba 5",
+    "description": "asdf",
+    "price": "20",
+    "stock": "20",
+    "thumbnail": "/public/images/file_4495_16122024_011919.jpg",
+    "seller": "e0405840-8b8a-496f-af8d-6d0a3c472a47"
+  },
+  {
+    "id": "3bd829ad-d4fb-4f11-be86-8ec5a9e48c79",
+    "title": "asdf",
+    "description": "adsf",
+    "price": "30",
+    "stock": "30",
+    "thumbnail": "/public/images/file_7526_16122024_012222.jpg",
+    "seller": "e0405840-8b8a-496f-af8d-6d0a3c472a47"
+  },
+  {
+    "id": "1bb01c4d-f1a1-4b4e-8fa1-a6bd5fc0db37",
+    "title": "asdfasdf",
+    "description": "asdfasdfadsf",
+    "price": "40",
+    "stock": "40",
+    "thumbnail": "/public/images/file_4112_16122024_012432.jpg",
+    "seller": "e0405840-8b8a-496f-af8d-6d0a3c472a47"
+  },
+  {
+    "id": "593269d0-418d-4826-9969-dcbc4e817dbc",
+    "title": "asdfaasdgasdg",
+    "description": "aasdgagg",
+    "price": "90",
+    "stock": "90",
+    "thumbnail": "/public/images/file_5323_16122024_014243.jpg",
+    "seller": "e0405840-8b8a-496f-af8d-6d0a3c472a47"
   }
 ]

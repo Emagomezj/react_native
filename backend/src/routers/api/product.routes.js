@@ -22,6 +22,8 @@ export default class ProductRouter extends BaseRouter {
 
         this.addDeleteRoute("/delete/:id", [], (req,res) => this.#pc.deleteOne(req,res));
 
+        this.addGetRoute("/user/:uid", [], (req,res) => this.#pc.getByUID(req,res))
+
 
 
         router.use((err, req, res, next) => {

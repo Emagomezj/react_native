@@ -54,7 +54,7 @@
     "name": "alguien",
     "surname": "alguno",
     "email": "a@b.com",
-    "password": "$2a$15$0pv4j4m5HFzoSWyvq9NmPOU/jqZmIiGOY9FBIXJ/Nbf6XxtxY4UFa",
+    "password": "$2a$15$0FcUkuI1zHcwugoC4sZ1yOAo6kaoAiTwEV4mA59LZ0bjeiRaEHx2.",
     "roles": [
       "STANDARD"
     ],
@@ -78,7 +78,17 @@
       "8bd315d9-94ad-4d4d-aeac-0437298df55d",
       "d02df37c-6b97-41c7-96e3-28cee8e4c1ff",
       "ae3adfa0-f90e-4012-b8cd-1e61a8ed989a",
-      "e9919492-d027-4558-895e-9e8c41c16f7f"
+      "e9919492-d027-4558-895e-9e8c41c16f7f",
+      "f647f4af-0432-4ddb-8a2d-e0a73c3b130f",
+      "c2446e2a-806f-4ff6-afb4-bb7dd0f68a7d",
+      "17ac1612-4147-4870-9741-6886d81089a4",
+      "99468a2f-560e-41fc-825f-8187ca005d19",
+      "3ff25d01-d6a8-4e72-a44a-aa4f8dd4e2d9",
+      "a9b58ea6-9f7b-4825-a0dd-3053410c0788",
+      "bec3172a-1ff8-443f-ae2f-531059daadc3",
+      "9e36ade3-a7ab-468e-825a-dc70f1e0a5a7",
+      "715a2366-0238-4a77-b48e-1d549e42e4a7",
+      "28e160a5-7eb1-42c8-8c09-b08c769bc22b"
     ],
     "recomendation": []
   }

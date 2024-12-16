@@ -18,8 +18,22 @@ export const shopApi = createApi({
 
         getProductById: builder.query({
             query: (id) => `/api/products/${id}`
-        })
+        }),
+
+        getUserProducts: builder.query({
+            query: (id) => `/api/products/user/${id}`
+        }),
+        uploadProduct: builder.mutation({
+            query: (formData) => ({
+              url: '/api/products/add',
+              method: 'POST',
+              body: formData,
+            //   headers: {
+            //     Authorization: `Bearer ${token}`, 
+            //   },
+            }),
+          }),
     })
 });
 
-export const {useGetCategoriesQuery, useGetProductsQuery, useGetProductByIdQuery, useFilterProductsByCategoryQuery} = shopApi
+export const {useGetCategoriesQuery, useGetProductsQuery, useGetProductByIdQuery, useFilterProductsByCategoryQuery, useGetUserProductsQuery, useUploadProductMutation} = shopApi

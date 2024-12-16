@@ -16,7 +16,7 @@ User
   id: ,
   name: ,
   surname: ,
-  email: , //default: contraseña123
+  email: , //default: contrasena123
   password: -hash-,
   roles: ,
   carts: ,

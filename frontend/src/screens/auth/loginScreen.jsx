@@ -62,6 +62,11 @@ const LoginScreen = () => {
       >
         <Text style={{ ...CustomStyles.buttonText, color: theme.textPrimary.color }}>Mis compras</Text>
       </Pressable>
+      <Pressable
+        onPress={() => navigation.navigate('Tus Productos', {})}
+      >
+        <Text style={{ ...CustomStyles.buttonText, color: theme.textPrimary.color }}>Productos</Text>
+      </Pressable>
     <Pressable
         onPress={handleLogout}
       >

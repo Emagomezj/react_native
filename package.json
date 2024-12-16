@@ -6,7 +6,7 @@
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "start:frontend": "cd frontend && npm start",
     "start:backend": "cd backend && npm start",
-     "install-dependencies": "concurrently \"npm install --prefix frontend\" \"npm install --prefix backend\""
+    "install-dependencies": "echo Installing frontend dependencies... && npm install --prefix frontend && echo Frontend dependencies installed. && echo Installing backend dependencies... && npm install --prefix backend && echo Backend dependencies installed."
   },
   "devDependencies": {
     "concurrently": "^8.0.0"

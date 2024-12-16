@@ -11,7 +11,8 @@ export default class ProductDto{
             categories: data.categories,
             price: data.price,
             stock: data.stock,
-            thumbnail: data?.thumbnail || "/public/images/default_product.jpg"
+            thumbnail: data?.thumbnail? `/public/images/${data.thumbnail}` : "/public/images/default_product.jpg",
+            seller: data.seller
         }
     };
 
@@ -23,7 +24,8 @@ export default class ProductDto{
             categories: data.categories || [],
             price: data.price,
             stock: data.stock,
-            thumbnail: data?.thumbnail || "/public/images/default_product.jpg"
+            thumbnail: data?.thumbnail? `/public/images/${data.thumbnail}` : "/public/images/default_product.jpg",
+            seller: data.seller
         }
     }
 }

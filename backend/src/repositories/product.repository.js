@@ -75,6 +75,12 @@ export default class ProductRepository{
         return formatedData
     }
 
+    async getUserProducts(uid){
+        const products = await this.#productDao.getProducts();
+        const filteredProducts = products.filter(p => p.seller === uid);
+        return filteredProducts;
+    }
+
     async getManyById(idArr){
         const ids = new Set(idArr)
         const products = await this.#productDao.getProducts();
